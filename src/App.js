@@ -1,3 +1,8 @@
+//Pavlína Pospíšilová
+//Kersi33@seznam.cz
+//pavlinap
+
+
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 import QrGeneration from "./pages/QrGeneration"
 import Home from "./pages/Home"
