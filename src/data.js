@@ -24,9 +24,9 @@ const allProduct = [
     {
         id: 3,
         image: murai,
-        title: "Tričko Murai",
+        title: "Tričko Muray",
         price: 680,
-        description: "Funkční tričko pánské s motivem Murai. Hladký strečový rychleschnoucí materiál ideální na loď a všechny sportovní aktivity."
+        description: "Funkční tričko pánské s motivem Muray. Hladký strečový rychleschnoucí materiál ideální na loď a všechny sportovní aktivity."
     },
 
     {
