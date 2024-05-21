@@ -1,0 +1,18 @@
+.all-product {
+    padding:100px 10px 50px 10px;
+}
+
+.title {
+    text-align: center;
+    padding: 30px;
+}
+
+.product-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+

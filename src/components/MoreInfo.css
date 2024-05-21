@@ -1,0 +1,32 @@
+.changer {
+    padding: 55px;
+}
+
+.changer button {
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.changer button:hover {
+    background-color: rgba(4, 52, 52, 0.439);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.changer-info {
+    color:white;
+    background-color:  rgba(28, 167, 167, 0.401);
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.changer p {
+    padding-top: 10px;
+    font-size: 15px;
+}

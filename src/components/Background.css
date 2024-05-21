@@ -1,0 +1,9 @@
+.background {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/king2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
