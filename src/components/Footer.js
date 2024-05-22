@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="all-contact">
         <p>Petr Macinský</p>
         <p>IČ: 66108616</p>
-       </div>
+        </div>
         <div className="contact">
             <div className="contact-items">
                 <div className="item">
