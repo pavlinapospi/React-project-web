@@ -14,16 +14,13 @@ import SharedLayout from "./pages/SharedLayout"
 const App = () => {
 
 return <BrowserRouter>
-
-    <Routes>
-    <Route element={<SharedLayout />}>
-    <Route path="/" element={<Home/>}/>
-    <Route path="/QrGeneration" element={<QrGeneration/>}/>
-    <Route path="*" element={<Error/>} />
-    </Route>
-
-    </Routes>
-
+            <Routes>
+                <Route element={<SharedLayout />}>
+                <Route path="/" element={<Home/>}/>
+                <Route path="/QrGeneration" element={<QrGeneration/>}/>
+                <Route path="*" element={<Error/>} />
+                </Route>
+            </Routes>
 </BrowserRouter>
 }
 

@@ -4,9 +4,9 @@ import AllProduct from "../components/AllProduct"
 
 const Home = () => {
     return <section>
-    < Header />
-    < AllProduct />
-    < MoreInfo />
+        < Header />
+        < AllProduct />
+        < MoreInfo />
     </section>
 }
 

@@ -54,13 +54,7 @@ const App = () => {
         </form>
       </div>
       <div id="imageBox">
-        <h2>Váš QR kód</h2>
-        {loading ? (
-          <h1>Načítání dat...</h1>
-        ) : error ? (
-          <h1>{error}</h1>
-        ) : (
-          qrImageUrl && <img src={qrImageUrl} id="qrImage" alt="Generated QR Code" />
+        <h2>Váš QR kód</h2> {loading ? (<h1>Načítání dat...</h1>) : error ? (<h1>{error}</h1>) : (qrImageUrl && <img src={qrImageUrl} id="qrImage" alt="Generated QR Code" />
         )}
       </div>
       <div>

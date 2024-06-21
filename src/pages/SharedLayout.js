@@ -7,7 +7,7 @@ const SharedLayout = () => {
         <Navbar/>
         <Outlet />
         <Footer />
-</section>
+    </section>
 }
 
 export default SharedLayout
